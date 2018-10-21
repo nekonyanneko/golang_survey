@@ -1,0 +1,21 @@
+{
+  "server": {
+      "ip": "203.0.113.10",
+      "port": "22"
+  },
+  "ssh_user": {
+      "user": "YOUR USER NAME",
+      "keypath": "YOUR_PATH/.ssh/id_rsa",
+      "rsapass": "YOUR PASSWORD"
+  },
+  "batch_list": [
+    {
+      "batch_name": "batch_1",
+      "command": "BATCH COMMAND"
+    },
+    {
+      "batch_name": "batch_2",
+      "command": "BATCH COMMAND"
+    }
+  ]
+}
